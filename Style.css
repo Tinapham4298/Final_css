@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Abel', sans-serif;
+    /* font-family: 'Righteous', cursive;
+    font-family: 'Poiret One', cursive; */
+}
+H1,H2{
+    font-size: 60px;
+    color: #ffa2c2;
+}
+p{
+    font-size:25px;
+    /* letter-spacing: 2px;
+    font-weight: bold; */
+}
+span{
+    font-size: 15px;
+    color:#2f0419;
+    font-weight: bold;
+}
+#BP-ott{
+    /* background-color: black; */
+    /* max-width: fit-content; */
+    /* margin: 0 auto; */
+
+    /* width: 1100px; */
+    /* background-size: 100%;
+    background-image: url(https://www.hellokpop.com/wp-content/uploads/2019/02/BLACKPINK-in-Manila-5.jpg);
+    width: 100%;
+    height: 100vh; */
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    /* height: 500px; */
+    /* background-color: rosybrown; */
+}
+.inline-block{
+    display: inline-block;
+}
+.clear{
+    clear:both;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+/* -------------------- P O S I T I O N ---------------- */
+.header{
+    /* background-color: #471f2e; */
+    padding: 32px 0;
+    background-size: 100%;
+    background-image: url(https://www.hellokpop.com/wp-content/uploads/2019/02/BLACKPINK-in-Manila-5.jpg);
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(0,0,0,0.8);
+    /* background-color: rgba(0,0,0,0.3);
+    padding: 200px 0;
+    width: 100%;
+    height: 100%; */
+}
+
+.main{
+    /* padding: 5px; */
+    width: 100%;
+    height: 900px;
+    /* background-color: #2f0419; */
+    /* background-color: #360829; */
+    background-color:#1c0218;
+}
+#footer{
+    width: 100%;
+    /* height: 100vh; */
+    /* max-width: fit-content; */
+    margin: 0 auto;
+    /* background-size: 100%;
+    background-image: url(https://www.hellokpop.com/wp-content/uploads/2019/02/BLACKPINK-in-Manila-5.jpg); */
+}
+/* ---------------------------------TOP----------------------------------------- */
+.opacity{
+    width: 1100px;
+    height: 500px;
+    background-color: rgba( 255, 182, 193, 0.3 );
+    margin: 0 auto; 
+    margin-top: 70px;
+}
+.content-lalisa{
+    margin-top: 150px;
+    margin-left:50px;
+    /* float: left; */
+    padding-right: 700px;
+}
+.content-lalisa H1{
+    margin-bottom: 30px;
+    letter-spacing: 8px;
+}
+.content-lalisa p{
+    margin-top: 15px;
+    margin-bottom:10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content-lalisa span{
+    /* padding-left:20px; */
+    margin-top:50px;
+}
+.pic-lalisa{
+    padding: 10px;
+}
+.lalisa-1{
+    margin-top: -250px;
+    /* margin-top: -500px; */
+    margin-left: 450px;
+}
+.lalisa-2{
+    /* margin-bottom: 50px; */
+    margin-left:800px;
+    margin-top: -200px;
+}
+.lalisa-2 img{
+    width: 90%;
+    /* float:right; */
+    /* float:right; */
+}
+.lalisa-1 img{
+    width: 60%;
+    float:left;
+}
+/* -------------------- I C O N ---------------- */
+.box{
+    width: 1100px;
+    height: 10px;
+    /* background-color: black; */
+    /* overflow: hidden; */
+}
+.search{
+    /* margin-bottom: 200px; */
+    margin-top:-30px;
+    /* margin-right:15px; */
+}
+.search img{
+    height: 20px;
+    width: 20px;
+}
+.buy{
+    margin-top:-30px;
+    margin-right:40px;
+}
+.buy img{
+    height: 20px;
+    width: 20px;
+}
+.social-list{
+    /* width: 250px;
+    height: 250px; */
+    /* background: khaki; */
+    margin: 30px -8px;
+}
+.social-list ul{
+    list-style: none;
+}
+.social-list li{
+    display: inline-block;
+    margin: 3px;
+    /* float: left; */
+}
+.social-list li a{
+    width: 10%;
+    text-decoration: none;
+}
+.social-list img{
+    width: 17px;
+    height: 17px;
+}
+/* -------------------- L O G O ---------------- */
+.logo{
+    /* padding: 30px 0px; */
+    text-align: center;
+    /* margin-bottom: 50px; */
+    float: left;
+}
+.logo img{
+    width: 20%;
+}
+/* ---------------------------------- menulist ------------------------------*/
+.menu-list{
+    /* margin-top: 80px; */
+}
+.menu-list ul{
+    list-style: none;
+}
+.menu-list li{
+    display: inline-block;
+    margin: 15px;
+    text-transform: uppercase;
+}
+.menu-list li a{
+    font-size: 20px;
+    color: pink;
+    text-decoration: none;
+}
+/* -------------------- SECTION 1---------------- */
+/* -------------------- main---------------- */
+/* ---------member----------- */
+/* .ctn-down{
+    margin-top:200px;
+} */
+.box-up{
+    width: 22%;
+    overflow: hidden; 
+    box-shadow: 2px 10px 20px #ffa2c2;
+    border-radius: 8px;
+    display:inline-block;
+    margin: 30px 31px;
+    margin-top:200px;
+}
+.box-up p{
+    font-size: 50px;
+    background:black;
+    color: #88274d;
+    font-weight: bold;
+}
+.box-down{
+    width: 20%;
+    overflow: hidden;
+    box-shadow: 2px 10px 20px #ffa2c2;
+    border-radius: 8px;
+    display:inline-block;
+    margin: 10px;
+}
+.box-down p{
+    font-size: 50px;
+    background:black;
+    color: #88274d;
+}
+.lisa{
+    height: 350px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+}
+.lisa img{
+    height: 100%;
+}
+.jennie{
+    height: 280px;
+    overflow: hidden;
+}
+.jennie img{
+    height: 100%;
+}
+.jisoo{
+    height: 480px;
+    overflow: hidden;
+}
+.jisoo img{
+    height: 100%;
+}
+.rose{
+    height: 480px;
+    overflow: hidden;
+}
+.rose img{
+    height: 100%;
+}
+.box-content{
+    padding: 24px;
+}
+.box-bottom{
+    font-size: 14px;
+}
+.box-bottom a{
+    color: rgba(0,0,0.67);
+    text-align: center;
+}
+    /* start-------------------- T O U R---------------- */
+.ctn-tour {
+    padding: 20px 90px;
+    width: 1100px;
+    height: 100%;
+    margin-top: 200px;
+    /* background-color: chocolate; */
+}
+.tour{
+    /* width: 500px; */
+    /*height: 500px; */
+    /* padding: 50px; */
+    background-color: #360829;
+    vertical-align: middle;
+}
+.sec-1{
+    width: 1100px;
+    height: 400px;
+    /* margin: 0 auto; */
+    /* padding-top:-20px; */
+    /* background-color: chocolate; */
+}
+.tour-img img{
+    width: 20%;
+    float:left;
+    /* margin-top: 150px; */
+    margin-left: 300px;
+    margin-right: 150px;
+}
+.content-tour H1{
+    padding-bottom: 5px;
+    padding-top: 50px;
+    letter-spacing: 5px;
+}
+.content-tour p{
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-weight: 3px;
+    color: #927aad;
+}
+.content-tour span{
+    text-align: justify;
+    font-size: 15px;
+    overflow: hidden;
+    /* color: #4c4c4c; #230011; */
+    color: #cccccc;
+    word-spacing: 2px;
+}
+.more{
+    float:right;
+    padding: 10px;
+    margin-right:5px;
+}
+    /* end-------------------- T O U R---------------- */
+    /* start -------------------- A L B U M S---------------- */
+.album{
+    height: 500px;
+    background-color:#22030b;
+}
+.album H3{
+    padding-top: 70px;
+    padding-bottom:50px;
+    font-size: 30px;
+    font-weight: 5px;
+    color: pink;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-shadow: 2px 10px 20px #ffa2c2;
+}
+.sec-2{
+    width: 810px;
+    /* background-color: #D62626; */
+    margin: 0px auto; 
+}
+.alb{
+    width: 250px;
+    height: 250px;
+    /* background: khaki; */
+    margin: 20px 10px;
+}
+.sec-2 img{
+    width: 250px;
+    height: 250px;
+}
+.sec-2 audio{
+    margin-top:-20px;
+}
+/* end -------------------- A L B U M S---------------- */
+/* Start-------------------------F A S H I O N-------------------------- */
+.fashion{
+    background-color: #22030b;
+    height: 500px;
+    padding: 50px;
+    color: whitesmoke;
+}
+.box-left{
+    width: 45%;
+    /* background-color: pink; */
+    height: 400px;
+    float:left
+}
+.box-right{
+    width: 45%;
+    /* background-color: pink; */
+    height: 400px;
+    float: right;
+}
+.box-1{
+    display:inline-block;
+}
+.box-1 img{
+    width: 35%;
+    padding: 30px;
+    float: left;
+    /* margin-top:15px; */
+}
+.box-2{
+    display:inline-block;
+}
+.box-2 img{
+    width: 35%;
+    padding: 30px;
+    /* margin-top:-15px; */
+    /* display:inline-block; */
+    float: left;
+}
+.content-fas{
+    /* width: 200px; */
+    /* background-color: purple; */
+    /* margin-left:500px; */
+}
+.box-1 h3{
+    margin-top: 30px;
+    margin-right:10px;
+}
+.box-2 h3{
+    margin-top: 30px;
+    margin-right:10px;
+}
+.content-fas h3{
+    font-size: 20px;
+    margin-top:40px;
+    /* padding: 20px; */
+}
+.content-fas p{
+    font-size: 12px;
+    font-weight: none;
+    margin-top:20px;
+    padding-right:30px;
+    color:#ffa2c2
+}
+/* End------------------------F A S H I O N-------------------------- */
+/* Start------------------------ S H O P------------------------- */
+.shop{
+    /* height: 700px; */
+    background-color: #1c0218;
+}
+.row-1{
+    padding: 0px;
+}
+/* .row1 div{
+    margin: 0px;
+} */
+/* .row-2{ 
+    margin-top: 150px;
+    margin-bottom:150px;
+} */
+/* .box1{
+    width: 400px;
+    height: 220px;
+    background-color: skyblue;
+    padding:50px;
+} */
+.box1 img{
+    width: 500px;
+    /* height: 10%; */
+    padding: 50px 0px;
+}
+.box2 img{
+    width: 500px;
+    /* height: 15%; */
+    padding: 50px 0px;
+}
+.row-2 img{
+    width: 1100px;
+    padding-bottom: 50px;
+    /* height: 280px; */
+}
+/* .more{
+    width: 50%;
+    margin-left: -150px;
+}
+.click-more{
+    padding: 12px 32px;
+    padding: -350px;
+    margin-top:200px;
+    background-color: #9c9c9c;
+    color: #171717;
+} */
+/* END------------------------ S H O P------------------------- */
+/* Start------------------------- CATEGORY bottom-------------------------- */
+#category{
+    width: 1100px;
+    /* height: 600px; */
+    padding: -10px;
+    border-top: 0.5px solid whitesmoke;
+}
+.sec-3 ul{
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.sec-3 li{
+    /* display: inline-block; */
+    margin-bottom: 8px;
+    margin-left: 15px;
+    /* white: 30px; */
+}
+.sec-3{
+    /* vertical-align: middle; */
+    width: 800px;
+    /* background-color: lime; */
+    float:right;
+    margin-top: -100px;
+    margin-right: 110px;
+    /* padding: 30px; */
+}
+.sec-3 li a{
+    font-size: 13px;
+    color: whitesmoke;
+    text-decoration: none;
+    /* margin: 5px;
+    padding: 5px 0; */
+}
+.sec-3 ul p{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    color:pink;
+}
+.ctn{
+    height: 400px;
+    width: 1522px;
+    background-color: #1c0218;
+}
+.sec-3 ul li p{
+    margin-bottom: 20px;
+}
+.logo-1 img{
+    width: 20%;
+    padding: 40px;
+    margin-left: 150px;
+    margin-top:100px;    
+}
+.footer{
+    height: 20px;
+    background-color: skyblue;
+    text-align:center;
+}
